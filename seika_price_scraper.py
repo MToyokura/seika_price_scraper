@@ -96,5 +96,5 @@ for year in range(2011, 2012):
                 # tempフォルダ内のファイルを削除する
                 os.remove(PurePath(read_folder, i))
 
-            # サーバー負荷を下げるために一応間隔を開ける
+            # サーバー負荷を下げるために一応間隔をあける
             time.sleep(2)

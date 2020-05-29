@@ -109,3 +109,5 @@ venv.bak/
 # GitHubでは空のディレクトリはaddできないらしい
 /temp/*
 /data/**/*.csv
+
+*.db

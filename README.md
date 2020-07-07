@@ -22,4 +22,8 @@ seika_price_scraper/
 
 これらのフォルダが存在する状態で seika_price_scraper.py を実行すると動きます。
 
-seika_price_scraper.py 内の日付を変更して実行することで随時データを更新することができます。
+これらのフォルダが存在しない場合、`make_region_folders.py`を実行することでフォルダを作成することができます。
+
+`seika_price_scraper.py`内の日付を変更して実行することで随時データを更新することができます。
+
+`to_db.py`は、`data`フォルダ内のデータをもとにデータベースファイルを作成します。
